@@ -1,0 +1,106 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+section img {
+    width: 465px;
+    height: 660px;
+    object-fit: cover;
+}
+
+section > div > div {
+    flex: 1;
+}
+
+h2 {
+    color: #ff003c;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+ul {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+strong {
+    color: #ff003c;
+}
+.voltar{
+    margin-bottom: 500px;
+
+}
+nav a:hover {
+    color: #f70000;         
+}   
+a{
+    font-size: 30px;
+
+
+}
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.rodape {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: auto;
+}
+
+.rodape h3 {
+    color: #00a8ff;
+}
+
+.rodape p {
+    margin: 8px;
+}
+
+.direitos {
+    color: #aaa;
+    font-size: 14px;
+}
+.voltar {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.voltar:hover {
+    background-color: #ff0000;
+}

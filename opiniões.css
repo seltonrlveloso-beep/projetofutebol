@@ -1,0 +1,45 @@
+form {
+    width: 500px;
+    margin: 30px auto;
+    color: black;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+color: rgb(250, 255, 245);
+    font-size: 18px;
+}
+
+
+.inputs-padrao {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.enviar {
+    width: 150px;
+    padding: 10px;
+    background-color: blue;
+    color: rgb(245, 7, 7);
+    border: none;
+    cursor: pointer;
+}
+.voltar:hover {
+    background-color: #ffffff;
+
+}
+body {
+    background-color: black;
+    color: chartreuse;
+}
+.voltar {
+    color: #ff0000;
+ font-size: 20px;
+ }
